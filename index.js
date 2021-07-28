@@ -78,51 +78,51 @@ client.on('message', msg => {
             var random_number = Math.floor(Math.random() * 12) + 1;
         
             if(random_number == 1){
-                client.sendMessage(msg.from, "Yes!");
+                msg.reply("Yes!");
             }
 
             if(random_number == 2){
-                client.sendMessage(msg.from, "No! :(");
+                msg.reply("No! :(");
             }
 
             if(random_number == 3){
-                client.sendMessage(msg.from, "May be");
+                msg.reply("May be");
             }
 
             if(random_number == 4){
-                client.sendMessage(msg.from, "Probably");
+                msg.reply("Probably");
             }
 
             if(random_number == 5){
-                client.sendMessage(msg.from, "Probably not");
+                msg.reply("Probably not");
             }
 
             if(random_number == 6){
-                client.sendMessage(msg.from, "Uhh, I'm hungry, Im going to the kitchen");
+                msg.reply("Uhh, I'm hungry, Im going to the kitchen");
             }
 
             if(random_number == 7){
-                client.sendMessage(msg.from, "Everything points to yes");
+                msg.reply("Everything points to yes");
             }
 
             if(random_number == 8){
-                client.sendMessage(msg.from, "Everything points to no");
+                msg.reply("Everything points to no");
             }
 
             if(random_number == 9){
-                client.sendMessage(msg.from, "Clearly");
+                msg.reply("Clearly");
             }
 
             if(random_number == 10){
-                client.sendMessage(msg.from, "You must trust it");
+                msg.reply("You must trust it");
             }
 
             if(random_number == 11){
-                client.sendMessage(msg.from, "Very doubtful");
+                msg.reply("Very doubtful");
             }
 
             if(random_number == 12){
-                client.sendMessage(msg.from, "Very doubtful");
+                msg.reply("Very doubtful");
             }
         }
     }
